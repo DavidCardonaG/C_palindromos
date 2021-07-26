@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPROBADOR DE PALÍNDROMOS</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body id="main">
+    <div class="title">
+        <h1 id="title">COMPROBADOR DE PALÍNDROMOS</h1>
+    </div>
+    <p>"Un palíndromo es un término o una expresión que puede leerse tanto de izquierda a derecha como de derecha a
+        izquierda (es decir, expresa lo mismo al ser leído de manera tradicional o al revés). Se trata del equivalente a
+        lo que, respecto a los números, se conoce como capicúa."</p>
+
+
+
+    <table class="table table-active">
+        <thead>
+            <tr>
+                <th>
+                    <div class="form">
+                        <form>
+                            <lable type="text">COMPROBADOR DE PALÍNDROMO</lable>
+                            <input id="data" value="" placeholder="Ingrese su palabra aquí">
+                        </form>
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div id="resultado"></div>
+                    <div class="button">
+                        <input type="button" id="btn" value="COMPROBAR" onclick="palindromoCheck()">
+                        <input name="borrar" type="reset" value="BORRAR">
+                        <a href="donar.html">DONAR</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <script src="./scripts/scripts.js"></script>
+</body>
+<footer id="piedepagina">
+    <span class="texto">
+        GRACIAS POR UTILIZAR NUESTRO COMPROBADOR, ESPERAMOS LE HAYA RESULTADO ÚTIL.
+    </span>
+</footer>
+
+</html>
